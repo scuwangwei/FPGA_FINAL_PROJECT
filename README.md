@@ -1,4 +1,4 @@
-# FPGA_FINAL_PROJECT
+# FPGA CAD FINAL PROJECT OVERVIEW
 
 This project implements a simplified FPGA placement legalization tool. Given an FPGA architecture and an initial placement of circuit instances, it assigns each instance to a valid hardware resource (CLB, RAM, or DSP) without conflicts.
 
@@ -6,6 +6,7 @@ The tool uses a BFS-based local search strategy to find the nearest available re
 
 This project demonstrates a core component of the FPGA CAD flow—placement legalization—and provides a foundation for future extensions such as wirelength optimization, timing-driven placement, and global assignment algorithms.
 
+# How to use
 1.use make command to compile legalizer.cpp
 
 2.All testcases are in the input directory
